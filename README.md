@@ -1,9 +1,12 @@
 # Midas_CNN_Task
-
-To reproduce the results, download the model from here - 
+Pretrained model is available from here - 
 
 https://drive.google.com/file/d/1Q81L4bxmLKTpazxexOQgD_ly3dZUnSZl/view?usp=sharing
 
 
 
-Save this, and update the 'path' variable in the notebook.
+Save this and, 
+1. import class Model
+2. Initialize as **model = Model(input_channel, number_of_labels)** 
+3. Now run, **model.load_state_dict(torch.load(path))**, where 'path' is the location where you have stored the above downloaded model.
+4. Now use the model. If it gives error, simply run, **model = model.cuda()**
