@@ -1,4 +1,7 @@
 # Midas_CNN_Task
+
+#### I haven't ran Part 3 due to GPU limit reached in my account
+
 Pretrained model is available from here - https://drive.google.com/file/d/1Q81L4bxmLKTpazxexOQgD_ly3dZUnSZl/view?usp=sharing
 
 Trained model of randomly initialized network from part 2 - https://drive.google.com/file/d/1ZEioNeuCOmkWtWn0y924sZfdQr692Euc/view?usp=sharing
